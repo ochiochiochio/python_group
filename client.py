@@ -6,6 +6,7 @@ from pygame.locals import *
 import select
 from contextlib import closing
 #nyonyonyo-nya-
+#abyabya-
 def main(): #クライアント側
   (w,h)=(600,600)   #ゲーム画面の大きさ(幅600px,高さ600px)
   pygame.init()     #pygameを初期化
