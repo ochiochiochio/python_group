@@ -5,7 +5,6 @@ import pygame
 from pygame.locals import *
 import select
 from contextlib import closing
-#nyonyonyo-nya-nyan
 def main(): #クライアント側
   (w,h)=(600,600)   #ゲーム画面の大きさ(幅600px,高さ600px)
   pygame.init()     #pygameを初期化
@@ -17,7 +16,7 @@ def main(): #クライアント側
   pygame.display.update() #ディスプレイ更新
 
   running = True #event発生までTrue
-
+#buhehe
   while running: #初期画面(server起動画面)
     for event in pygame.event.get():
       if event.type == QUIT:
